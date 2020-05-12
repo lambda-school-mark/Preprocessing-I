@@ -142,27 +142,158 @@ body {
   background-color: #efefef;
   font: 62.5%;
 }
+body {
+  display: flex;
+  flex-direction: column;
+}
 body .navigation {
   display: flex;
   justify-content: space-evenly;
-  width: 90%;
-  margin: 2rem;
-  background-color: red;
+  width: 100%;
+  margin: 2%;
+  background-color: #efefef;
+}
+body .navigation a {
+  text-decoration: none;
+  background-color: black;
+  font-size: 1.2rem;
+  padding: 12px;
+  border-radius: 12px;
+  color: #ffffff;
 }
 body .columns {
   display: flex;
   flex-wrap: wrap;
-  margin: 5%;
+  justify-content: center;
+  height: 110%;
 }
 body .columns .left {
-  background-color: red;
-  width: 30%;
+  background-color: #ffffff;
+  width: 20%;
+  border-radius: 25px;
+  height: 35rem;
+  margin: 1rem;
+}
+body .columns .left .profile_card {
+  text-align: center;
+}
+body .columns .left .profile_card h1 {
+  padding: 1rem;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+body .columns .left .profile_card h2 {
+  font-size: 1.2rem;
+}
+body .columns .left img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+body .columns .left .contact_card {
+  margin-left: 1.4rem;
+}
+body .columns .left .contact_card h3 {
+  color: #fd7a50;
+  font-family: "Baloo 2", cursive;
+}
+body .columns .left .contact_card a {
+  color: darkgray;
+  text-decoration: none;
 }
 body .columns .middle {
-  background-color: green;
-  width: 30%;
+  width: 20%;
+}
+body .columns .middle .info {
+  margin-bottom: 2rem;
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 45%;
+  padding: 1.4rem;
+}
+body .columns .middle .info h3 {
+  color: #fd7a50;
+  font-family: "Baloo 2", cursive;
+}
+body .columns .middle .info p {
+  line-height: 1.2rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+body .columns .middle .education {
+  margin-bottom: 1rem;
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 45%;
+  padding: 1.4rem;
+}
+body .columns .middle .education h3 {
+  color: #fd7a50;
+  font-family: "Baloo 2", cursive;
+}
+body .columns .middle .education p {
+  line-height: 1.2rem;
+  font-family: "PT Sans Narrow", sans-serif;
 }
 body .columns .right {
-  background-color: yellow;
-  width: 30%;
+  width: 20%;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+  height: 100%;
+}
+body .columns .right .work {
+  margin-bottom: 2rem;
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 50%;
+  padding: 1.4rem;
+}
+body .columns .right .work h3 {
+  color: #fd7a50;
+  font-family: "Baloo 2", cursive;
+}
+body .columns .right .work p {
+  line-height: 1.2rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+body .columns .right .skills {
+  margin: 1rem, 0, 1rem;
+  border-radius: 25px;
+  background-color: #ffffff;
+  width: 100%;
+  height: 50%;
+  padding: 1.4rem;
+}
+body .columns .right .skills h3 {
+  color: #fd7a50;
+  font-family: "Baloo 2", cursive;
+}
+body .columns .right .skills p {
+  line-height: 1.2rem;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+body .bottom {
+  width: 100%;
+  border-top: 2px solid black;
+  margin: 5%;
+  background-color: #efefef;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+body .bottom h3 {
+  color: #fd7a50;
+  font-family: "Baloo 2", cursive;
+  margin: 2rem;
+}
+body .bottom p {
+  width: 20%;
+  margin: 2rem;
 }
