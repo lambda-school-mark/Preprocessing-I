@@ -130,13 +130,13 @@ table {
 }
 
 //font import
-@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 //variables
 @orange: #fd7a50;
-@orange-font: "Baloo 2", cursive;
+@orange-font: "Poppins", sans-serif;
 @grey: #efefef;
-@regular-font: "PT Sans Narrow", sans-serif;
+@regular-font: "Poppins", sans-serif;
 @white: #ffffff;
 
 //mixins
@@ -162,6 +162,7 @@ html,
 body {
   height: 100%;
   background-color: #efefef;
+  font-family: @regular-font;
   font: 62.5%;
 }
 //fonts: h1 title, h2 subtitle, h3 orange, h4 black bold, h5 grey, h6 black regular
@@ -175,7 +176,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
-    margin: 2%;
+    padding: 2%;
     background-color: @grey;
     a {
       text-decoration: none;
@@ -253,6 +254,7 @@ body {
         p {
           line-height: 1.2rem;
           font-family: @regular-font;
+          opacity: 0.8;
         }
       }
       .education {
@@ -299,7 +301,7 @@ body {
         border-radius: 25px;
         background-color: @white;
         width: 100%;
-        height: 50%;
+        height: 45%;
         padding: 1.4rem;
 
         h3 {
@@ -315,7 +317,8 @@ body {
   .bottom {
     width: 100%;
     border-top: 2px solid black;
-    margin: 5%;
+    // margin: 5%;
+    padding: 1rem;
     background-color: @grey;
     display: flex;
     justify-content: space-around;
@@ -323,11 +326,13 @@ body {
 
     h3 {
       .h3();
-      margin: 2rem;
+      //   margin: 2rem;
+      padding: 2rem;
     }
     p {
       width: 20%;
-      margin: 2rem;
+      //   margin: 2rem;
+      padding: 2rem;
     }
   }
 }

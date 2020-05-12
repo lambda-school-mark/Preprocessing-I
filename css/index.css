@@ -127,11 +127,18 @@ table {
   border-spacing: 0;
 }
 @font-face {
-  font-family: 'Baloo 2';
+  font-family: 'Poppins';
   font-style: normal;
-  font-weight: 800;
+  font-weight: 400;
   font-display: swap;
-  src: local('Baloo 2 ExtraBold'), local('Baloo2-ExtraBold'), url(https://fonts.gstatic.com/s/baloo2/v1/wXKuE3kTposypRyd7__6JeQ.ttf) format('truetype');
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v9/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'), url(https://fonts.gstatic.com/s/poppins/v9/pxiByp8kv8JHgFVrLEj6V1s.ttf) format('truetype');
 }
 * {
   box-sizing: border-box;
@@ -140,6 +147,7 @@ html,
 body {
   height: 100%;
   background-color: #efefef;
+  font-family: "Poppins", sans-serif;
   font: 62.5%;
 }
 body {
@@ -150,7 +158,7 @@ body .navigation {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
-  margin: 2%;
+  padding: 2%;
   background-color: #efefef;
 }
 body .navigation a {
@@ -200,7 +208,7 @@ body .columns .left .contact_card {
 }
 body .columns .left .contact_card h3 {
   color: #fd7a50;
-  font-family: "Baloo 2", cursive;
+  font-family: "Poppins", sans-serif;
 }
 body .columns .left .contact_card a {
   color: darkgray;
@@ -219,11 +227,12 @@ body .columns .middle .info {
 }
 body .columns .middle .info h3 {
   color: #fd7a50;
-  font-family: "Baloo 2", cursive;
+  font-family: "Poppins", sans-serif;
 }
 body .columns .middle .info p {
   line-height: 1.2rem;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Poppins", sans-serif;
+  opacity: 0.8;
 }
 body .columns .middle .education {
   margin-bottom: 1rem;
@@ -235,11 +244,11 @@ body .columns .middle .education {
 }
 body .columns .middle .education h3 {
   color: #fd7a50;
-  font-family: "Baloo 2", cursive;
+  font-family: "Poppins", sans-serif;
 }
 body .columns .middle .education p {
   line-height: 1.2rem;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body .columns .right {
   width: 20%;
@@ -257,32 +266,32 @@ body .columns .right .work {
 }
 body .columns .right .work h3 {
   color: #fd7a50;
-  font-family: "Baloo 2", cursive;
+  font-family: "Poppins", sans-serif;
 }
 body .columns .right .work p {
   line-height: 1.2rem;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body .columns .right .skills {
   margin: 1rem, 0, 1rem;
   border-radius: 25px;
   background-color: #ffffff;
   width: 100%;
-  height: 50%;
+  height: 45%;
   padding: 1.4rem;
 }
 body .columns .right .skills h3 {
   color: #fd7a50;
-  font-family: "Baloo 2", cursive;
+  font-family: "Poppins", sans-serif;
 }
 body .columns .right .skills p {
   line-height: 1.2rem;
-  font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 body .bottom {
   width: 100%;
   border-top: 2px solid black;
-  margin: 5%;
+  padding: 1rem;
   background-color: #efefef;
   display: flex;
   justify-content: space-around;
@@ -290,10 +299,10 @@ body .bottom {
 }
 body .bottom h3 {
   color: #fd7a50;
-  font-family: "Baloo 2", cursive;
-  margin: 2rem;
+  font-family: "Poppins", sans-serif;
+  padding: 2rem;
 }
 body .bottom p {
   width: 20%;
-  margin: 2rem;
+  padding: 2rem;
 }
